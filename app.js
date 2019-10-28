@@ -5,6 +5,6 @@ console.log('JS test')
 //üldtsükkel
 let autod = ['Kia', 'Toyota', 'Ford', 'Nissan'];
 //väljastus
-for(lit i = 0; i < autod.length; i++){
-    console.log(autod [i]);
+for(let i = 0; i < autod.length; i++){
+    console.log(autod[i]);
 }
