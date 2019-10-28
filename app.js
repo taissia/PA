@@ -12,9 +12,20 @@ for(let i = 0; i < 10; i++){
 //kontrollime tulemus
 console.log(numbrid);
 //sorteerime kasvujärjestuses
-numbrid.sort();
+//numbrid.sort();
+
 //kontrollime tulemus
 console.log(numbrid)
-//for(let i = 0; i < numbrid.length; i++){
-  //  console.log(numbrid[i]);
-//}
+for(let kord = 0; kord < numbrid.length; kord++){
+    for(let i = 0; i < numbrid.length; i++){
+        let abi;
+        if (numbrid [i] > numbrid [i+1]){
+            abi = numbrid[i+1];
+            numbrid[i] = numbrid[i+1];
+            numbrid[i+1] = abi;
+            }
+    
+    }
+}
+//kontrollime tulemus
+console.log(numbrid);
