@@ -3,11 +3,17 @@ console.log('JS test')
 
 //for tsükkel
 //üldtsükkel
-let arv;
+let lause;
 for(arv = 1; arv <= 10; arv ++){
-    console.log('arv = ' + arv);
+    lause = 'arv = ';
     if(arv < 10) {
-} else {
-    console.log ('arv = ' + arv)
+        lause = lause + ' ';
+} 
+lause = lause + arv;
+if(arv % 2 == 0){
+    lause = lause + ' - paaris';
+} else{
+    lause = lause + ' - paaritu';
 }
+    console.log (lause)
 }
