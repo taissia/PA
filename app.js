@@ -14,6 +14,7 @@ if(arv % 2 == 0){
     lause = lause + ' - paaris';
 } else{
     lause = lause + ' - paaritu';
+    continue;
 }
     console.log (lause)
 }
