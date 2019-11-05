@@ -1,10 +1,10 @@
 // Funktsioonid
+//funktsiooni defineerimine
+// function funktsiooniNimi([param1, param2, ...,paramN]){
+    //funktsiooni sisu }
+function paarsuseKontroll(arv){
+    
 
-// arvu paarsuse kontroll
-function paarsuseKontroll(){
-    //defineerime suvaline täisarv
-
-    let arv = 5;
     //arvutame arv 2 jagamisel
     let jaak = arv % 2;
     //kui jaak võrdne nulliga
@@ -18,4 +18,6 @@ function paarsuseKontroll(){
 }
 
 //Funktsiooni kasutamine
-paarsuseKontroll();
+paarsuseKontroll(7);
+paarsuseKontroll(9);
+paarsuseKontroll(7765);
