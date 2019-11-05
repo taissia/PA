@@ -1,18 +1,16 @@
-console.log('JS test')
-//tsüklid
+// Funktsioonid
 
-//while
-//ellkontrollimisega tsükkel
-//numbri defineerimine
-let arv = 5; 
-//def. jagaja algväärtus
-let jagaja = 2;
-while(arv % jagaja != 0){
-    jagaja++;
-}
-//kontrollime, kas jagasime sama arvuga
-if (arv == jagaja) {
-    console.log(arv + ' on algarv');
-}  else {
-    console.log(arv + ' ei ole algarv');
+// arvu paarsuse kontroll
+//defineerime suvaline täisarv
+
+let arv = 5;
+//arvutame arv 2 jagamisel
+let jaak = arv % 2;
+//kui jaak võrdne nulliga
+if( jaak === 0 ){
+    //tegu on paaris arvuga
+    console.log(arv + ' on paaris');
+} else {
+    //tegu on paaritu arvuga
+    console.log(arv + ' on paaritu ');
 }
