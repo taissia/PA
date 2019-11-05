@@ -9,15 +9,17 @@ function pindalaArvutamine(pikkus, laius){
 }
 
 //funktsioon, mis väljastab tulemus ekraani
-function valjasta(pikkus, laius){
+function valjasta(pikkus = 0, laius = 0){
     //väljastame väärtus
     console.log('Pikkus = ' + pikkus);
     console.log('Laius = ' + laius);
     //salvestame arvutatud pindala
-    let pindala = pindalaArvutamine(pikkus, laius);
+    pindala = pindalaArvutamine(pikkus, laius);
+    console.log(pindala);
     //väljastame tulemus
     console.log('Pindala = ' + pindala);
 }
 
 valjasta(15, 5);
 valjasta(154, 587);
+valjasta();
